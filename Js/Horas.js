@@ -1,8 +1,8 @@
-//const prompt = require("prompt-sync")();
-import prompt from "prompt-sync";
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
 
-nhoras = parseInt(prompt("Ingrese la cantidad de horas de sueño: "));
-edad = parseInt(prompt("Ingrese su edad: "));
-DiasA = 365
-horasD = nhoras*DiasA*edad
+const nhoras = parseInt(prompt("Ingrese la cantidad de horas de sueño: "));
+const edad = parseInt(prompt("Ingrese su edad: "));
+const DiasA = 365;
+const horasD = nhoras * DiasA * edad;
 console.log("El número de horas de sueño en su vida es: ", horasD)

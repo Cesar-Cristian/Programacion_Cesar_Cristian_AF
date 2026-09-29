@@ -1,22 +1,22 @@
-cm1 = 89
-cm2 = 58
-cm3 = 89
-Peso = 53
-Estatura = 1.70
-In = 2.54
-ft = 3.281
-lb = 2.205
+let cm1 = 89
+let cm2 = 58
+let cm3 = 89
+let Peso = 53
+let Estatura = 1.70
+let In = 2.54
+let ft = 3.281
+let lb = 2.205
 /*Transformación de 
 centímetros a pulgadas */
-in1=cm1 * In
-in2=cm2 * In
-in3=cm3 * In
+const in1=cm1 * In
+const in2=cm2 * In
+const in3=cm3 * In
 /*Transformación de 
 kilogramos a libras */
-lb1=Peso * lb
+const lb1=Peso * lb
 /*Transformación de 
 metros a pies */
-ft1=Estatura * ft
+const ft1=Estatura * ft
 //Mostramos los resultados
 console.log("La medida 1 en pulgadas es:", in1)
 console.log("La medida 2 en pulgadas es:", in2)
